@@ -34,7 +34,7 @@ const Header = () => {
 
                 {/* Register */}
                 <Link
-                  to="/register"
+                  to="register"
                   className="text-white bg-[#43302E] hover:bg-[#2f221f] focus:ring-4 focus:ring-[#C1DBE8] font-medium rounded-lg text-sm px-4 lg:px-5 py-2 mr-2"
                 >
                   Register

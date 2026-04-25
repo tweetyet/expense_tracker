@@ -1,12 +1,34 @@
 
+// import DashboardLayout
+// const dashBoardRoute = [
+//     {
+//         path: "/dashboard",
+//         element: <DashboardLayout/>,
+//         children: [
+//             {
+//                 index: true,
+//                 element: <DashboardPage/>
 
-const dashBoardRoute = {
-    path: "/dashboard",
+import DashboardLayout from "../features/dashboard/components/DashboardLayout";
+import DashboardPage from "../features/dashboard/pages/DashboardPage";
+
+//             },
+//         ]
+// }]
+// export default dashBoardRoute
+
+
+const dashBoardRoute = [
+    {
+        path:"/dashboard",
         element: <DashboardLayout/>,
-   children: [
+        children:[
             {
-                index: true,
-                element: <DashboardPage/>
+                index:true,
+                element:<DashboardPage/>
+            },
 
-}
+        ]
+    }
+]
 export default dashBoardRoute;

@@ -1,5 +1,6 @@
 import { ArrowBigRight, ArrowLeftIcon, ArrowRightIcon, BarChart3, PartyPopper } from "lucide-react";
 import React from "react";
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
@@ -49,19 +50,19 @@ const HeroSection = () => {
             </svg>
           </a>
           <div className="flex flex-wrap gap-4 font-serif text-lg mt-6">
-            <a
-              href="#"
+            <Link
+             to="/login"
               className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white rounded-lg bg-[#43302E] shadow-md hover:bg-[#2f221f] focus:ring-4 focus:ring-[#FFF1B5] transition"
             >
               Start Tracking <ArrowRightIcon className="ml-2" />
-            </a>
+            </Link>
 
-            <a
-              href="#"
+            <Link
+              to="/register"
               className="inline-flex shadow-md items-center justify-center px-6 py-3 text-base font-medium text-[#43302E] border border-[#43302E] rounded-lg hover:bg-[#FFF1B5] focus:ring-4 focus:ring-[#FFF1B5] transition"
             >
               See How It Works
-            </a>
+            </Link>
           </div>
         </div>
         <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
