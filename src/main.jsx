@@ -1,4 +1,4 @@
-import { StrictMode, Suspense } from 'react'
+import { StrictMode} from 'react'
 import { createRoot } from 'react-dom/client'
 import './styles/App.css'
 import router from './routes/router.jsx'

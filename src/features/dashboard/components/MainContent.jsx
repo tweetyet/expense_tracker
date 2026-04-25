@@ -5,7 +5,7 @@ import {
   Receipt,
   Search,
   ShoppingBasket,
-  TrendingDown,
+
   TrendingDownIcon,
   TrendingUp,
   Wallet,

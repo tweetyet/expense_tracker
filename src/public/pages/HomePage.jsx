@@ -1,6 +1,5 @@
-import React from 'react'
-import HeroSection from '../components/heroSection'
-import FeatureSection from '../components/FeatureSection'
+import HeroSection from '../../../src/public/components/HeroSection'
+import FeatureSection from '../../../src/public/components/FeatureSection'
 
 const HomePage = () => {
   return (
