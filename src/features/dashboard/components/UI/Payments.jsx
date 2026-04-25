@@ -62,6 +62,32 @@ Approved
                 </td>
             </tr>
           </tbody>
+
+            <tbody className="divide-y divide-amber-100">
+            <tr>
+              <td className="p-4 whitespace-nowrap text-sm font-medium text-zinc-900">
+                <div className="flex items-center space-x-2">
+                  <div className="size-8 bg-zinc-200 rounded-full center-item text-zinc-500 overflow-clip">
+                    <img src="/user2.jpeg" alt="" />
+                    <span>Student Loan Payment</span>
+                  </div>
+                </div>
+              </td>
+
+                <td className="p-4 whitespace-nowrap text-sm text-zinc-400">
+                    $2,000.00
+                </td>
+                <td className="p-4 whitespace-nowrap text-sm text-zinc-400">
+                    2026-4-15
+                </td>
+                <td className=" p-4 whitespace-nowrap text-sm text-red-400 flex items-center">
+                    <div className="bg-red-100 py-1 px-2 rounded-full">
+                        <span className="inline-block w-2 h-2 mr-1 rounded-full bg-red-500"></span>
+Pending
+                    </div>
+                </td>
+            </tr>
+          </tbody>
         </table>
       </div>
     </div>
