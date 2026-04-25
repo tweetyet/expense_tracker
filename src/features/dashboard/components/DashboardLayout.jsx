@@ -14,7 +14,7 @@ const DashboardLayout = ({onLogout}) => {
     const [token]= useCookie("my_token");
     const[userCookie]= useCookie("user");
     const{user,setUser}= useUserStore();
-    const [activeTab,setActiveTab]= useState("dashBoard");
+    const [activeTab,setActiveTab]= useState("Dashboard");
 
     useEffect(()=>{
         setUser(JSON.parse(userCookie));
@@ -40,8 +40,7 @@ const DashboardLayout = ({onLogout}) => {
     <div className='w-80 bg-white p-4 shadow-md hidden xl:block'>
 <RightPanel/>
     </div>
-    {/* <Suspense fallback={<PageLoading/>}> <Outlet/></Suspense>
-    <Toaster/> */}
+    
    </div>
   )
 }

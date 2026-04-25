@@ -1,14 +1,11 @@
-import React from 'react'
 import Container from '../../../components/Container'
+import DashboardLayout from '../components/DashboardLayout'
 
 const DashboardPage = () => {
   return (
    <section>
     <Container>
-        <div>
-           <h1>hello</h1> 
-        </div>
-
+        <DashboardLayout/>
     </Container>
    </section>
   )
