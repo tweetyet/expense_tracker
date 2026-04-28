@@ -90,16 +90,16 @@ const MainContent = () => {
           iconColor="text-[#43302E]"
         />
       </div>
-      <div className="flex gap-4">
+      <div className="flex flex-col lg:flex-row gap-4 ">
 
-      <div className="flex-1">
+      <div className="w-full lg:w-1/2">
         <AddExpenseForm formData={formData} setFormData={setFormData} editingId={editingId} setEditingId={seteditingId} expenses={expenses} setExpenses={setExpenses}
           
         />
       </div>
 
       {/* Recent Spending */}
-      <div className="bg-white/60 backdrop-blur p-5 rounded-xl shadow-sm">
+      <div className="bg-white/60 backdrop-blur p-5 rounded-xl shadow-sm w-full lg:w-1/2">
         <h3 className="text-lg font-semibold text-[#43302E] mb-4">
           Recent Spending
         </h3>
