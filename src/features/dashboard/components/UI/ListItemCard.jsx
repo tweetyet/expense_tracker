@@ -15,7 +15,7 @@ const ListItemCard = ({ title, subtitle, value, valueColor, src }) => {
             <p className="text-sm text-[#43302E]/70">{subtitle}</p>
         </div>
         <div>
-          <p className={`font-bold ${valueColor} items-end` }>{value}</p>
+          <p className={`font-bold ${valueColor} items-end ` }>{value}</p>
         </div>
         
 
