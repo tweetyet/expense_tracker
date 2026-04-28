@@ -24,7 +24,7 @@ const DashboardLayout = ({ onLogout }) => {
   }
 
   return (
-    <div className="min-h-screen bg-gray-100 flex">
+    <div className="min-h-screen bg-white flex">
 
       {/* LEFT SIDEBAR */}
       <div className="w-64 bg-white p-6 shadow-md hidden md:block flex-shrink-0">
