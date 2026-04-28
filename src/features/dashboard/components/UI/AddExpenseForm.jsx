@@ -77,7 +77,7 @@ const AddExpenseForm = ({
           <label
             className={`flex flex-1 items-center justify-center gap-2 p-4 rounded-2xl border-2 cursor-pointer transition
               ${
-                formData.type === "expense"
+                formData?.type === "expense"
                   ? "bg-red-100 border-red-400"
                   : "bg-white hover:bg-red-100"
               }`}

@@ -1,5 +1,5 @@
 export const login= (data) => {
-return fetch("https://invoice-app-api.mms-it.com/api/v2/login", {
+return fetch("VITE_API_URL"+"/login", {
           method: "POST",
           body: JSON.stringify(data),
           headers: {
@@ -11,7 +11,7 @@ return fetch("https://invoice-app-api.mms-it.com/api/v2/login", {
 }
 
 export const register= (data) => {
-return fetch("https://invoice-app-api.mms-it.com/api/v2/register", {
+return fetch("VITE_API_URL"+"/register", {
           method: "POST",
           body: JSON.stringify(data),
           headers: {

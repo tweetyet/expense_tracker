@@ -6,7 +6,6 @@ const NavItem = ({
     const isActive = activeTab === tabName
     const baseClasses = "flex items-center space-x-3 p-2 rounded-lg cursor-pointer font-serif shadow-md"
     const activeClasses = "bg-[#C1DBE8] text-[#43302E]"
-    // const inactiveClasses = "text-[#43302E]/60 hover:bg-[#FFF1b5]/60 hover:text-[#43302E] transition-colors duration-200 ease-in-out"
     const inactiveClasses = "text-zinc-500 hover:text-[#43302E] hover:bg-[#FFF1B5]/60 transition-colors duration-200 ease-in-out"
     const finalTabName = tabName ==="Help & Support" ? "Help & Support" : label
   return (
