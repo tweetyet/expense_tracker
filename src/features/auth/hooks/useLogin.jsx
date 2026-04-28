@@ -3,7 +3,6 @@ import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 import useCookie from "react-use-cookie";
 import { login } from "../../../../services/auth";
-// import { login } from "../../../services/auth";
 
 const useLogin = () => {
   const navigate = useNavigate();

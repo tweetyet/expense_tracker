@@ -1,25 +1,14 @@
 /* eslint-disable react/prop-types */
-import React from "react";
 
 const ExpenseSummaryCard = ({
   label,
   amount,
   icon: Icon,
   colorClass,
-  iconColor,
+  iconColor
 }) => {
   return (
-    // <div
-    //   className={`${colorClass ? colorClass : "bg-amber-100"} p-4 rounded-xl shadow-sm flex items-center gap-4 card-hover transition`}
-    // >
-    //   <div className="col gap-16 md:gap-12">
-    //     <p className="text-xs text-[#43302E]/70">{label}</p>
-    //     <p className="text-sm font-medium text-[#43302E]">${amount}</p>
-    //     <div
-    //       className={`p-2 rounded-full bg-[#43302E] ${iconColor ? iconColor : "text-[#43302E]"}`}
-    //     ><Icon size={16} color={iconColor}/></div>
-    //   </div>
-    // </div>
+    
     <div
   className={`
     ${colorClass || "bg-white/60 backdrop-blur"}

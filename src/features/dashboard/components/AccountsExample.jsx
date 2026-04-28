@@ -1,9 +1,9 @@
 import React from 'react'
 import Userprofile from '../../user-profile/components/Userprofile'
 
-const AccountsExample = () => {
+const AccountsExample = (src) => {
   return (
-    <Userprofile/>
+    <Userprofile src={src}/>
   )
 }
 
